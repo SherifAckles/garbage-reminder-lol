@@ -12,7 +12,6 @@ const garbageDays = ["Saturday", "Tuesday", "Thursday"];
 const garbageOut = new Date();
 const today = weekday[garbageOut.getDay()];
 
-
 document.querySelector(".message1").textContent = today;
 document.querySelector(".message1").style.color = "blue";
 if (
