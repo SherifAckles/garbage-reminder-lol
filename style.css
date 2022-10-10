@@ -3,35 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.practise {
-  margin-top: 3rem;
-}
 body {
   background-color: #76ba99;
 }
-/* #container*/
-.practise,main {
+
+.app-name {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.card {
+  width: 18rem;
+  margin-top: 20rem;
+  width: 1rem;
+  background-color: antiquewhite;
+  height: 25rem;
   font-size: xx-large;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
   align-items: center;
+  border-radius: 2rem;
 }
 
-.practise {
-  margin-bottom: 3rem;
+.card-title {
+  margin-top: 3rem;
 }
 
-main {
-  margin: auto;
-  
-  width: 20rem;
-  background-color: antiquewhite;
- height: 20rem;
- padding: 2rem;
- border-radius: 2rem;
-}
 .message1 {
   color: green;
 }
-
